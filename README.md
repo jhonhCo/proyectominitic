@@ -1,0 +1,2 @@
+# proyectominitic
+Metodologia Scrum
