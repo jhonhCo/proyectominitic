@@ -7,16 +7,17 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-// 6. creamos una clase llamada ControllerProgramaAcademico donde se envia los datos al navegador
-// 7.  creamos una metodo callServicePrograma para llamar al servicio por medio de una instanciacion
-// 8. el metodo  callServicePrograma va a utilizar a ServiceProgramaAcademico y a su ves ServiceProgramaAcademico
+// 6. Creamos una clase llamada ControllerProgramaAcademico donde se envía los datos al navegador
+// 7.  Creamos una método callServicePrograma para llamar al servicio por medio de una instanciación
+// 8. el metodo  callServicePrograma va a utilizar a ServiceProgramaAcademico y a su vez ServiceProgramaAcademico
 // utiliza datos de persona que se encuentra en domain
-// 9. llamo a services pero como necesito datos de persona tengo que instanciarlo
-// 10. cargamos los datos de persona atraves de los set nombre, apellido
-// 11. para poder mostrar o pintar datos en un navegador se debe marcar con la siguiente notacion @GetMapping
-// el cual recibe parametros el path =" ruta por la cual se va a ingresar" y produces = "tipo de salida" puede se html txt e 90% son json
-// 12. revisamos el programa con el martillo en la parte superior derecha y luego nos vamo a  proyectoAplicaion y de damos run
-// 13. copiamos esta direccion y ya nos debe mostrar la salida que se cargo en services  http://localhost:8080/Users/harcr/Documents/proyectoIj/proyecto
+// 9. Llamo a services pero como necesito datos de persona tengo que instanciarlo
+// 10. Cargamos los datos de persona atreves de los set nombre, apellido
+// 11. Para poder mostrar o pintar datos en un navegador se debe marcar con la siguiente notación @GetMapping
+// el cual recibe parámetros el path =" ruta por la cual se va a ingresar" y produces = "tipo de salida" puede se html txt e 90% son json
+// 12. Revisamos el programa con el martillo en la parte superior derecha y luego nos vamos  a  proyectoAplicaion y de damos run
+// 13. Copiamos esta dirección y ya nos debe mostrar la salida que se cargó en services  http://localhost:8080/Users/harcr/Documents/proyectoIj/proyecto
+
 
 @RestController// Nos da la posibilidad de lanzarlo a un navegador web
 

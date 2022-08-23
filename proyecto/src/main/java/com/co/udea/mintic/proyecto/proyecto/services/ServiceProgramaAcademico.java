@@ -9,8 +9,9 @@ import org.springframework.stereotype.Service;
 //1 creamos un  objeto en domain con nombre apellido edad etc
 //2.luego creamos una clase que se llama programaAcademico  para comenzar a trabajar  con el objeto persona
 //3. luego  creamos una variable para el nombre del programaAcadémico
-//4. Creamos un método llamado incribir con los datos del modelo retorna la variable inscipcion
-//5. vamos a controller para hacer el puente entre la vista y services
+//4. Creamos un método llamado inscribir con los datos del modelo retorna la variable inscripción
+//5. Vamos a controller para hacer el puente entre la vista y services
+
 
 
 @Service //  se le entregan datos para que el service los procese.
